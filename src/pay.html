@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Payment </title>
+		<meta name="viewport" content="width-device-width, intial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" type="text/css" href="css/pay.css">
+	</head>
+	<body>
+		<header>
+			<a href="temp.html" id="back"> Back </a>
+		</header>
+		<section id="main">
+			<div class="w3-container w3-auto" id="container">
+				<p class="text"> Confirm Purchase </p>
+				<form method="post" action="pay.php">
+					<label> UserName </label>
+					<label style="margin-left:225px;"> CVV </label><br/>
+					<input type="textbox" id="uname" placeholder="UserName" >
+					<input type="textbox" id="cvv" placeholder="CVV"><br/>
+					<label> Card Number </label><br/>
+					<input type="textbox" id="cardno" placeholder="Card Number"><br/>
+					<label> Expiration Date </label><br/>
+					<input type="month" id="month"><br/>
+					<input type="submit" name="pay" value="PAY" id="pay">
+				</form>
+			</div>
+		</section>
+		<footer>	
+	<div class="container" id="footer">
+		<div class="w3-container w3-row">
+			<div class="w3-container w3-third" style="display:block; border-right:2px solid rgba(0,0,0,0.2);">
+				<h5> About Us </h5>
+				<h6> Welcome To Web Serve </h6>
+					
+					<p>
+						We provide you with the best templates for your Website.<br>
+						Share Your detailed requirements with us and we design your website or blog with all our knowledge. 
+					</p>
+			</div>
+			<div class="w3-container w3-third" style="display:block; border-right:2px solid rgba(0,0,0,0.2);">
+				<h6> Quick Links </h6>
+				<a href="homel.html" style="text-decoration:none;"> Home </a></br>
+				<a href="homel.html" style="text-decoration:none;"> About </a></br>
+				<a href="homel.html" style="text-decoration:none;"> Team </a></br>
+				<a href="homel.html" style="text-decoration:none;"> Services </a></br>
+				<a href="template.html" style="text-decoration:none;"> Templates </a></br>
+				<a href="homel.html" style="text-decoration:none;"> Contact </a>
+			</div>
+			<div class="w3-container w3-third" style="display:block;">
+				<h6> Contact information </h6>
+				<p> Team Web Serve </p>
+				<p> Address: Chaitanya Colleges </br> Kishanpura </br> Warangal </p>
+				<p> Mobile: 7458961245 </p>
+				<p> E-Mail: chaitanyacolleges@email.com </p>
+			</div>
+		</div>
+	</div>	
+</footer>
+	</body>
+</html>

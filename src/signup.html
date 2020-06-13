@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Web Serve </title>
+	<meta name="viewport" content="width-device-width, intial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/signup.css">
+	<link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+	<div class="bg"  style="background-image: url(images/bg0.jpg);">
+	<a href="index.html"> Back </a>
+		<div class="form">
+			<div class="w3-container w3-half w3-auto">
+				<h2 class="title"> Sign In </h2>
+				<form class="inputgroup" method="post" action="login.php" id="login">
+					<input type="text" name="username" class="inputfield" placeholder="User Name" required>
+					<input type="password" name="password" class="inputfield" placeholder="Password" required>
+					<input type="checkbox" name="rememberme" class="check-box"><span> Remember Password </span>
+					<input type="submit" name="submit" value="Login" class="submitbtn">
+				</form>
+			</div>
+			<div class="w3-container w3-half w3-auto">
+				<h2 class="title"> Sign Up </h2>
+				<form class="inputgroup" method="post" action="register.php" id="register">
+					<input type="text" name="username" class="inputfield" placeholder="Username" required>
+					<input type="text" name="mobile" class="inputfield" placeholder="Mobile Number">
+					<input type="email" name="email" class="inputfield" placeholder="E-Mail">
+					<input type="text" name="orgname" class="inputfield" placeholder="Organisation Name" required>
+					<input type="text" name="orgtype" class="inputfield" placeholder="Oraganisation Type" required>
+					<input type="password" name="password" class="inputfield" placeholder="Password" required>
+					<input type="submit" name="signin" value="Sign In" class="submitbtn">
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer>	
+	<div class="container" id="footer">
+		<div class="w3-container w3-row">
+			<div class="w3-container w3-third" style="display:block; border-right:2px solid rgba(0,0,0,0.2);">
+				<h5> About Us </h5>
+				<h6> Welcome To Web Serve </h6>
+					
+					<p>
+						We provide you with the best templates for your Website.<br>
+						Share Your detailed requirements with us and we design your website or blog with all our knowledge. 
+					</p>
+			</div>
+			<div class="w3-container w3-third" style="display:block; border-right:2px solid rgba(0,0,0,0.2);">
+				<h6> Quick Links </h6>
+				<a href="#home" style="text-decoration:none;"> Home </a></br>
+				<a href="#about" style="text-decoration:none;"> About </a></br>
+				<a href="#team" style="text-decoration:none;"> Team </a></br>
+				<a href="#services" style="text-decoration:none;"> Services </a></br>
+				<a href="signup.html" style="text-decoration:none;"> Sign Up </a></br>
+				<a href="templat.html" style="text-decoration:none;"> Templates </a></br>
+				<a href="#contact" style="text-decoration:none;"> Contact </a>
+			</div>
+			<div class="w3-container w3-third" style="display:block;">
+				<h6> Contact information </h6>
+				<p> Team Web Serve </p>
+				<p> Address: Chaitanya Colleges </br> Kishanpura </br> Warangal </p>
+				<p> Mobile: 7458961245 </p>
+				<p> E-Mail: chaitanyacolleges@email.com </p>
+			</div>
+		</div>
+	</div>	
+</footer>
+	</body>
+</html>

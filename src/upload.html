@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Upload Template </title>
+<link rel="stylesheet" type="text/css" href="css/upload.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+<div class="w3-container" id="container">
+<h3 class="title"> Upload Templates </h3>
+<form method="post"action="upload.php" class="itemgroup" enctype="mutlipart/form-data">
+<div class="row">
+<div class="col-25">
+<label class="itemlabel"> Template Name</label>
+</div>
+<div class="col-75">
+<input type="text" class="item" name="tempname">
+</div>
+</div>
+<div class="row">
+<div class="col-25">
+<label class="itemlabel"> Template Id </label>
+</div>
+<div class="col-75">
+<input type="text" name="tempno" class="item">
+</div>
+</div>
+<div class="row">
+<div class="col-25">
+<label class="itemlabel"> Template Type </label>
+</div>
+<div class="col-75">
+<div class="dropdown">
+<select name="temptype">
+<option value=" " > --Select-- </option>
+<option value="website"> Website </option>
+<option value="blog"> Blog </option>
+</select>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-25">
+<label class="itemlabel"> Image </label>
+</div>
+<div class="col-75">
+<input type="file" class="item" name="img">
+</div>
+</div>
+<div class="row">
+<div class="col-25">
+<label class="itemlabel"> Template Description </label>
+</div>
+<div class="col-75">
+<textarea class="item" name="desc" style="height:70px;"></textarea>
+</div>
+</div>
+<div class="row">
+<div class="col-25">
+<label class="itemlabel"> Price </label>
+</div>
+<div class="col-75">
+<input type="text" class="item" name="price">
+</div>
+</div>
+<div class="row">
+<input type="submit" value="Upload" name="upload" class=" submit">
+</div>
+</form>
+</div>
+</body>
+</html>
