@@ -1,0 +1,59 @@
+#back{
+	text-decoration:none;
+	display:inline-block;
+	border-radius:10px;
+	border:2px solid red;
+	color:blue;
+	font-family:optima;
+	font-size:22px;
+	width:125px;
+	margin-top:30px;
+	margin-left:25px;
+	float:left;
+	text-align:center;
+	box-shadow:0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.2);;
+}
+
+#back:hover{
+		border:2px solid blue;
+		color:red;
+}
+
+#main{
+	text-align:center;
+}
+
+#container{
+	box-shadow:0 2px 2px 0 rgba(0,0,0,0.2);
+	height:50%;
+	width:50%;
+	font-family:optima;
+	font-size:18px;
+}	
+
+#cvv{
+	margin-left:25px;
+}
+
+label{
+	margin-bottom:15px;
+	color:;
+}
+
+input[type=textbox],[type=month]{
+	box-shadow:2px light grey;
+	border-radius:5px;
+	margin-bottom:15px;
+}
+
+#cardno{
+	width:65%;
+}
+
+#pay{
+	margin-bottom:20px;
+	float:right;
+	color:blue;
+	width:65px;
+	text-align:center;
+}

@@ -1,0 +1,27 @@
+*{
+	box-sizing: border-box;
+}
+
+#services h3{
+	font-family: helvetica;
+	font-size: 20px;
+	margin-top: 0px;
+	color: black;
+	text-align:left;
+}
+
+#services p{
+	font-family: "blippo";
+	font-size: 24px;
+	color:black;
+	line-height: 18px;
+	text-align:justify;
+	word-wrap:break-all;
+	line-height:30px;
+}
+
+#services h5{
+	font-family: helvetica;
+	font-size:24px;
+	color:black;
+}

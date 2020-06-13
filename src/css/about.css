@@ -1,0 +1,63 @@
+#about h3{
+	font-family: "lucida console";
+	font-size: 20px;
+	margin-top: 0px;
+	color: black;
+	text-align:left;
+}
+
+#about p{
+	font-family: "blippo";
+	font-size: 24px;
+	color:black;
+	line-height: 18px;
+	text-align:justify;
+	word-wrap:break-all;
+	line-height:32px;
+}
+
+#about h2{
+	font-family: helvetica;
+	font-size:24px;
+	color:black;
+}
+
+#about h4{
+	font-family:helvetica;
+	font-size: 18px;
+	color:black;
+}
+
+*{
+	box-sizing:border-box;
+}
+
+.column{
+	float:left;
+	width:50%;
+	padding:10px;
+	height:300px;
+}
+
+.row:after{
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+.multi{
+	-webkit-column-count:2;
+	-moz-column-count:2;
+	column-count: 2;
+
+	-webkit-column-gap:40px;
+	-moz-column-gap:40px;
+	column-gap:40px;
+}
+
+@media screen and (max-width: 650px){
+	.column{
+		width:100%;
+		display:block;
+	}
+}

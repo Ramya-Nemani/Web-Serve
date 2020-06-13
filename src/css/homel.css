@@ -1,0 +1,110 @@
+#logo h1{
+	font-family: "blippo";
+	font-size:45px;
+	color:black;
+	margin-top:30px;
+	margin-right:10px;
+	margin-bottom:0px;
+	text-align:right;
+}
+
+#logo h3{
+	font-family: "blippo";
+	font-size:25px;
+	margin-top:0px;
+	margin-right: 5px;
+	color:black;
+	text-align:right;
+}
+
+#footer{
+	padding:5px;
+	text-decoration:none;
+	margin-top:250px;
+	line-height:20px;
+	border-top:2px solid rgba(0,0,0,0.2);
+	background:linear-gradient(to top left, #f2f2f2 0%, #ccccff 100%);
+	margin-left:5px;
+}
+
+#logo{
+	border-bottom:1px  rgba(0,0,0,0.2);
+}
+
+*{
+	box-sizing:border-box;
+}
+
+body{
+background-color:#f2f2f2;
+}
+
+.navbar{
+	font-size:18px;
+	border:1px rgba(0,0,0,0.2);
+	padding-top:0px;
+	padding-bottom:0px;
+	/*background-image:linear-gradient(260deg,#2376ae 0%,#c16ecf 100%);*/
+}
+
+/*.main-nav{
+	list-style-type:none;
+	display:none;
+}*/
+
+.nav-links{
+	text-decoration:none;
+	font-family:"lucida console";
+	font-size:18px;
+	line-height:15px;
+	padding:5px;
+	color:black;
+}
+
+.main-nav a{
+	text-align:center;
+	margin:25px auto;
+}
+
+.main-nav a:hover{
+	color:red;
+}
+/*.navbar-toggle{
+	position:absolute;
+	margin-top:0px;
+	margin-left:20px;
+	cursor:pointer;
+	color:black;
+	font-size:24px;
+}*/
+
+.active{
+	display:block;
+}
+
+@media screen and (max-width:768px){
+	.navbar{
+		height:100%;
+		width:120px;
+		position:fixed;
+		z-index:1;
+		margin-top:0;
+		left:0;
+		padding-top:20px;
+		overflow-x:hidden;
+	}
+	.navbar a{
+	padding:6px 8px 6px 16px;
+	text-decoration:none;
+	font-size:16px;
+	display:block;
+	}
+	.navbar a:hover{
+		color:red;
+	}
+	#main{
+		transition:0.5s;
+		margin-left:120px;
+		padding:0px 10px;
+	}
+}

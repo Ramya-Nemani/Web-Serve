@@ -1,0 +1,70 @@
+*{
+	box-sizing: border-box;
+}
+
+input[type=text],select,textarea{
+	width:100%;
+	padding:12px;
+	border:1px solid #ccc;
+	margin-top:6px;
+	margin-bottom:16px;
+	display: inline-block;
+	resize:vertical;
+}
+
+input[type=submit]{
+	background-color: #4caf50;
+	color: white;
+	padding:12px 20px;
+	border:none;
+	cursor:pointer;
+	font-size: 20px;
+}
+
+input[type=submit]:hover{
+	background-color: #45a049;
+}
+
+.container{
+	border-radius:5px;
+	background-color: #f2f2f2;
+	padding:10px;
+	color:black;
+}
+
+#contact label{
+	font-size: 20px;
+	font-family:"blippo";
+
+}
+
+.column{
+	float:left;
+	width:50%;
+	margin-top: 6px;
+	padding:20px;
+}
+
+.row:after{
+	content:" ";
+	display:table;
+	clear:both;
+}
+
+#contact h5{
+	font-family: helvetica;
+	font-size:24px;
+	color:black;
+}
+
+#contact h2{
+	font-family: helvetica;
+	color:black;
+}
+
+@media screen and (max-width:600px){
+	.column,input[type=submit]{
+		width:100%;
+		margin-top:0;
+	}
+}
